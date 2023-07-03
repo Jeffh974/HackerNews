@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id failed
+id progress
+id recyclerView
+id textView
+layout activity_main
+layout hn_entry
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string download_failed
+style Base.Theme.HackerNews
+style Theme.HackerNews
+xml backup_rules
+xml data_extraction_rules
