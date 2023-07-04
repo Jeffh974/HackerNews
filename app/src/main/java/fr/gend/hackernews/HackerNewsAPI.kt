@@ -11,7 +11,8 @@ data class Item (
     val time: Long,
     val title: String,
     val url: String?,
-    val text: String?
+    val text: String?,
+    val descendants: Int?
     )
 
 interface HackerNewsAPI {
