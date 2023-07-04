@@ -13,30 +13,26 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
 
-    val api = Retrofit.Builder()
-        .baseUrl("https://hacker-news.firebaseio.com/v0/")
-        .addConverterFactory(GsonConverterFactory.create())
-        .build()
-        .create(HackerNewsAPI::class.java)
-
-    val itemRepository = HNItemRepository(api)
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
 
+        val app = application as HNApplication
+
+        setSupportActionBar(binding.materialToolbar)
+        title = "Coucou"
+
         thread {
-            val ids = api.topStories().execute().body()
+            val ids = app.api.topStories().execute().body()
             runOnUiThread{
                 binding.progress.visibility = View.GONE
                 if (ids == null) {
                     binding.failed.visibility = View.VISIBLE
                 } else {
                     binding.recyclerView.visibility = View.VISIBLE
-                    binding.recyclerView.adapter = HNAdapter(ids, itemRepository)
+                    binding.recyclerView.adapter = HNAdapter(ids, app.itemRepository)
                 }
             }
         }

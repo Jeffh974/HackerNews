@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.databinding:viewbinding:8.0.1] /home/jeff/.gradle/caches/transforms-3/3d9b78be2f31434c7ad87f5f9d190604/transformed/viewbinding-8.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] /home/jeff/.gradle/caches/transforms-3/fc6a7f54c3982da3f7a65cccc6a211a7/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/jeff/.gradle/caches/transforms-3/a2eadf71db5aa22d2b5de09f9e2ef6e0/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -45,22 +45,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jeff/.gradle/caches
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jeff/.gradle/caches/transforms-3/ec5479b6bc8cfe455e4c076da21b1159/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/jeff/.gradle/caches/transforms-3/7414914d10f013308a600091e44dff16/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/jeff/.gradle/caches/transforms-3/9476ce486e798ff5f638749d06382b59/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:2:11-69
@@ -69,7 +69,7 @@ ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:6:5-25:19
+ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:6:5-27:19
 MERGED from [com.google.android.material:material:1.9.0] /home/jeff/.gradle/caches/transforms-3/fc6a7f54c3982da3f7a65cccc6a211a7/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /home/jeff/.gradle/caches/transforms-3/fc6a7f54c3982da3f7a65cccc6a211a7/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/jeff/.gradle/caches/transforms-3/a2eadf71db5aa22d2b5de09f9e2ef6e0/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -95,7 +95,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/jeff/.gradle/caches/t
 	android:roundIcon
 		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:15:9-29
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:16:9-29
 	android:icon
 		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
@@ -104,22 +104,28 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/jeff/.gradle/caches/t
 		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:14:9-48
 	android:dataExtractionRules
 		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:8:9-65
+	android:name
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:15:9-38
 activity#fr.gend.hackernews.MainActivity
-ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:16:9-24:20
+ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:17:9-25:20
 	android:exported
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:18:13-36
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:17:13-41
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:23:27-74
+activity#fr.gend.hackernews.ItemActivity
+ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml:26:19-47
 uses-sdk
 INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jeff/AndroidStudioProjects/HackerNews/app/src/main/AndroidManifest.xml

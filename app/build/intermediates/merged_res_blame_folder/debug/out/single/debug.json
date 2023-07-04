@@ -4,6 +4,10 @@
         "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "fr.gend.hackernews.app-merged_res-28:/layout_activity_item.xml.flat",
+        "source": "fr.gend.hackernews.app-main-30:/layout/activity_item.xml"
+    },
+    {
         "merged": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
     },
@@ -24,10 +28,6 @@
         "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "fr.gend.hackernews.app-merged_res-28:/layout_hn_entry.xml.flat",
-        "source": "fr.gend.hackernews.app-main-30:/layout/hn_entry.xml"
-    },
-    {
         "merged": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
         "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/drawable/ic_launcher_background.xml"
     },
@@ -42,6 +42,10 @@
     {
         "merged": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-merged_res-28:/layout_activity_item.xml.flat",
+        "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/layout/activity_item.xml"
     },
     {
         "merged": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",

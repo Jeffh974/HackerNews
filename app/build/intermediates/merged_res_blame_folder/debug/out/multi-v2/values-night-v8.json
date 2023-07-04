@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fr.gend.hackernews.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/jeff/AndroidStudioProjects/HackerNews/app/src/main/res/values-night/themes.xml",
@@ -54,6 +54,60 @@
                         "startOffsets": "173,243,327,411,507,609,711,3566",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "238,322,406,502,604,706,800,3650"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "fr.gend.hackernews.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/home/jeff/AndroidStudioProjects/HackerNews/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "29",
+                        "endColumns": "8",
+                        "endOffsets": "2193"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "29",
+                        "endColumns": "8",
+                        "endOffsets": "2148"
+                    }
+                },
+                {
+                    "source": "/home/jeff/.gradle/caches/transforms-3/fc6a7f54c3982da3f7a65cccc6a211a7/transformed/material-1.9.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,65,66,67,68,69,70",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2785,2860,2971,3060,3161,3268,3375,3474,3581,3684,3772,3896,3998,4100,4216,4318,4432,4560,4676,4798,4934,5054,5188,5308,5420,5635,5752,5876,6006,6128,6266,6400,6516",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "2855,2966,3055,3156,3263,3370,3469,3576,3679,3767,3891,3993,4095,4211,4313,4427,4555,4671,4793,4929,5049,5183,5303,5415,5541,5747,5871,6001,6123,6261,6395,6511,6631"
+                    }
+                },
+                {
+                    "source": "/home/jeff/.gradle/caches/transforms-3/20363ea0586047998533031dfff03f3d/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "30,31,32,33,34,35,36,62",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "2153,2223,2307,2391,2487,2589,2691,5546",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "2218,2302,2386,2482,2584,2686,2780,5630"
                     }
                 }
             ]

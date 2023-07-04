@@ -1,12 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="md_theme_dark_background">#1B1C17</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_inverseOnSurface">#1B1C17</color>
+    <color name="md_theme_dark_inversePrimary">#496800</color>
+    <color name="md_theme_dark_inverseSurface">#E4E3DB</color>
+    <color name="md_theme_dark_onBackground">#E4E3DB</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_onPrimary">#243600</color>
+    <color name="md_theme_dark_onPrimaryContainer">#BEF458</color>
+    <color name="md_theme_dark_onSecondary">#1D3700</color>
+    <color name="md_theme_dark_onSecondaryContainer">#A7F951</color>
+    <color name="md_theme_dark_onSurface">#E4E3DB</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C6C8B9</color>
+    <color name="md_theme_dark_onTertiary">#013733</color>
+    <color name="md_theme_dark_onTertiaryContainer">#BCECE5</color>
+    <color name="md_theme_dark_outline">#8F9284</color>
+    <color name="md_theme_dark_outlineVariant">#45483D</color>
+    <color name="md_theme_dark_primary">#A3D73E</color>
+    <color name="md_theme_dark_primaryContainer">#364E00</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+    <color name="md_theme_dark_secondary">#8DDB36</color>
+    <color name="md_theme_dark_secondaryContainer">#2C5000</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+    <color name="md_theme_dark_surface">#1B1C17</color>
+    <color name="md_theme_dark_surfaceTint">#A3D73E</color>
+    <color name="md_theme_dark_surfaceVariant">#45483D</color>
+    <color name="md_theme_dark_tertiary">#A0D0C9</color>
+    <color name="md_theme_dark_tertiaryContainer">#1F4E49</color>
+    <color name="md_theme_light_background">#FEFCF4</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_inverseOnSurface">#F2F1E9</color>
+    <color name="md_theme_light_inversePrimary">#A3D73E</color>
+    <color name="md_theme_light_inverseSurface">#30312C</color>
+    <color name="md_theme_light_onBackground">#1B1C17</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#131F00</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_onSecondaryContainer">#0E2000</color>
+    <color name="md_theme_light_onSurface">#1B1C17</color>
+    <color name="md_theme_light_onSurfaceVariant">#45483D</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_onTertiaryContainer">#00201D</color>
+    <color name="md_theme_light_outline">#75786B</color>
+    <color name="md_theme_light_outlineVariant">#C6C8B9</color>
+    <color name="md_theme_light_primary">#496800</color>
+    <color name="md_theme_light_primaryContainer">#BEF458</color>
+    <color name="md_theme_light_scrim">#000000</color>
+    <color name="md_theme_light_secondary">#3C6A00</color>
+    <color name="md_theme_light_secondaryContainer">#A7F951</color>
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_surface">#FEFCF4</color>
+    <color name="md_theme_light_surfaceTint">#496800</color>
+    <color name="md_theme_light_surfaceVariant">#E2E4D4</color>
+    <color name="md_theme_light_tertiary">#396661</color>
+    <color name="md_theme_light_tertiaryContainer">#BCECE5</color>
+    <color name="seed">#77a700</color>
     <string name="app_name">HackerNews</string>
     <string name="download_failed">Download failed !</string>
-    <style name="Base.Theme.HackerNews" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
+    <string name="open_url">Open Url</string>
+    <style name="Theme.HackerNews" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
     </style>
-    <style name="Theme.HackerNews" parent="Base.Theme.HackerNews"/>
 </resources>

@@ -8,10 +8,12 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.appbar.MaterialToolbar;
 import fr.gend.hackernews.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -19,10 +21,16 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final CoordinatorLayout rootView;
+
+  @NonNull
+  public final AppBarLayout appbar;
 
   @NonNull
   public final TextView failed;
+
+  @NonNull
+  public final MaterialToolbar materialToolbar;
 
   @NonNull
   public final ProgressBar progress;
@@ -30,17 +38,20 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerView;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView failed,
+  private ActivityMainBinding(@NonNull CoordinatorLayout rootView, @NonNull AppBarLayout appbar,
+      @NonNull TextView failed, @NonNull MaterialToolbar materialToolbar,
       @NonNull ProgressBar progress, @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
+    this.appbar = appbar;
     this.failed = failed;
+    this.materialToolbar = materialToolbar;
     this.progress = progress;
     this.recyclerView = recyclerView;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public CoordinatorLayout getRoot() {
     return rootView;
   }
 
@@ -65,9 +76,21 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.appbar;
+      AppBarLayout appbar = ViewBindings.findChildViewById(rootView, id);
+      if (appbar == null) {
+        break missingId;
+      }
+
       id = R.id.failed;
       TextView failed = ViewBindings.findChildViewById(rootView, id);
       if (failed == null) {
+        break missingId;
+      }
+
+      id = R.id.materialToolbar;
+      MaterialToolbar materialToolbar = ViewBindings.findChildViewById(rootView, id);
+      if (materialToolbar == null) {
         break missingId;
       }
 
@@ -83,7 +106,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, failed, progress, recyclerView);
+      return new ActivityMainBinding((CoordinatorLayout) rootView, appbar, failed, materialToolbar,
+          progress, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
