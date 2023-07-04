@@ -62,8 +62,11 @@
     <color name="md_theme_light_tertiaryContainer">#BCECE5</color>
     <color name="seed">#77a700</color>
     <string name="app_name">HackerNews</string>
+    <string name="coms_by">coms by</string>
     <string name="download_failed">Download failed !</string>
     <string name="open_url">Open Url</string>
+    <string name="previous">Previous</string>
+    <string name="textview">TextView</string>
     <style name="Theme.HackerNews" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>

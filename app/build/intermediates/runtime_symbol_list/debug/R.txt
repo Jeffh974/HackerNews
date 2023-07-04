@@ -3191,6 +3191,8 @@ int id clockwise 0x7f080076
 int id closest 0x7f080077
 int id collapseActionView 0x7f080078
 int id compress 0x7f080079
+int id comsBy 0x7f0801ff
+int id comsText 0x7f080200
 int id confirm_button 0x7f08007a
 int id constraint 0x7f08007b
 int id container 0x7f08007c
@@ -3816,6 +3818,7 @@ int string character_counter_content_description 0x7f0f002b
 int string character_counter_overflowed_content_description 0x7f0f002c
 int string character_counter_pattern 0x7f0f002d
 int string clear_text_end_icon_content_description 0x7f0f002e
+int string coms_by 0x7f0f00a8
 int string download_failed 0x7f0f00a6
 int string error_a11y_label 0x7f0f002f
 int string error_icon_content_description 0x7f0f0030
@@ -3930,6 +3933,7 @@ int string path_password_eye 0x7f0f009b
 int string path_password_eye_mask_strike_through 0x7f0f009c
 int string path_password_eye_mask_visible 0x7f0f009d
 int string path_password_strike_through 0x7f0f009e
+int string previous 0x7f0f00a9
 int string search_menu_title 0x7f0f009f
 int string searchbar_scrolling_view_behavior 0x7f0f00a0
 int string searchview_clear_text_content_description 0x7f0f00a1
@@ -3937,6 +3941,7 @@ int string searchview_navigation_content_description 0x7f0f00a2
 int string side_sheet_accessibility_pane_title 0x7f0f00a3
 int string side_sheet_behavior 0x7f0f00a4
 int string status_bar_notification_info_overflow 0x7f0f00a5
+int string textview 0x7f0f00aa
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style Animation_AppCompat_Dialog 0x7f100002
