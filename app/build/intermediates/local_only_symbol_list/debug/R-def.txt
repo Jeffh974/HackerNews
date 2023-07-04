@@ -76,6 +76,7 @@ id recyclerView
 id textView
 layout activity_item
 layout activity_main
+layout hn_coms
 layout hn_entry
 mipmap ic_launcher
 mipmap ic_launcher_round

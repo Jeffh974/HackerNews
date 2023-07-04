@@ -25,7 +25,7 @@ class ItemActivity() : AppCompatActivity() {
 
         app.itemRepository.fetchItem(id) {item ->
             val date = SimpleDateFormat("dd/MM/YYYY").format(Date(item.time * 1000))
-            val author = "Par : ${item.by.toString()} avec un score de ${item.score.toString()} (${date.toString()})"
+            val author = "Par : ${item.by} avec un score de ${item.score} (${date})"
 
             binding.itemTitle.text = item.title
             binding.itemAuthor.text = author

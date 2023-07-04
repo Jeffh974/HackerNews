@@ -3703,6 +3703,7 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
+int layout hn_coms 0x7f0b006c
 int layout hn_entry 0x7f0b006a
 int layout m3_alert_dialog 0x7f0b002d
 int layout m3_alert_dialog_actions 0x7f0b002e

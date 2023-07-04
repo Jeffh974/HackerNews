@@ -1,5 +1,9 @@
 [
     {
+        "merged": "fr.gend.hackernews.app-mergeDebugResources-27:/layout/hn_coms.xml",
+        "source": "fr.gend.hackernews.app-main-30:/layout/hn_coms.xml"
+    },
+    {
         "merged": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-mergeDebugResources-27:/layout/activity_item.xml",
         "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/layout/activity_item.xml"
     },
@@ -10,9 +14,5 @@
     {
         "merged": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-mergeDebugResources-27:/layout/hn_entry.xml",
         "source": "/home/jeff/.gradle/daemon/8.0/fr.gend.hackernews.app-main-30:/layout/hn_entry.xml"
-    },
-    {
-        "merged": "fr.gend.hackernews.app-mergeDebugResources-27:/layout/activity_item.xml",
-        "source": "fr.gend.hackernews.app-main-30:/layout/activity_item.xml"
     }
 ]
